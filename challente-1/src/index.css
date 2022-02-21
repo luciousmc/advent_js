@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@font-face {
+  font-family: 'bebas';
+  src: url('./fonts/bebasneue-book-webfont.woff') format('woff'),
+    url('./fonts/bebasneue-book-webfont.woff2') format('woff2');
+}
+
+:root {
+  --bg-dark: #2b2a30;
+  --green: #09a65a;
+}
+
+body {
+  align-items: center;
+  background: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0;
+}
