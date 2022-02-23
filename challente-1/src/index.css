@@ -7,13 +7,20 @@
 }
 
 :root {
-  --bg-dark: #2b2a30;
-  --green: #09a65a;
+  --clr-dark: #2b2a30;
+  --clr-green: #09a65a;
+  --clr-txt-white: #ddd;
+  --clr-txt-gray: #777;
+}
+
+* {
+  font-family: 'bebas';
+  color: var(--clr-txt-white);
 }
 
 body {
   align-items: center;
-  background: var(--bg-dark);
+  background: var(--clr-dark);
   display: flex;
   justify-content: center;
   margin: 0;

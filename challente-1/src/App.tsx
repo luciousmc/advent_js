@@ -1,7 +1,7 @@
-import styles from './App.module.css';
+import Clock from './components/Clock';
 
 function App() {
-  return <div className={styles.wrapper}></div>;
+  return <Clock />;
 }
 
 export default App;
